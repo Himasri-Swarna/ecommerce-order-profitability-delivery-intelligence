@@ -1,9 +1,8 @@
-E-Commerce Order-to-Profitability & Delivery Intelligence
+# E-Commerce Order-to-Profitability & Delivery Intelligence
 
 📌 Project Overview
-Analyzed the Brazilian E-Commerce Public Dataset (Olist) to understand
-order performance, contribution proxy, delivery efficiency, customer
-satisfaction, seller performance, and category performance.
+
+Analyzed the Brazilian E-Commerce Public Dataset (Olist) to understand order performance, contribution proxy, delivery efficiency, customer satisfaction, seller performance, and category performance.
 
 🎯 Business Questions
 
@@ -11,7 +10,7 @@ satisfaction, seller performance, and category performance.
 - Which sellers and seller states contribute most?
 - Which states experience higher delivery delays?
 - How does delivery delay relate to customer review scores?
-- How does item value and freight cost change over time?
+- How do item value and freight cost change over time?
 
 🛠️ Tools & Technologies
 
@@ -33,6 +32,20 @@ satisfaction, seller performance, and category performance.
 - Average Review Score: 4.09
 - Late Delivery Rate: 6.8%
 
+📊 Dashboard Preview
+
+## Executive Overview
+
+![Executive Overview](assets/screenshots/01_executive_overview.png)
+
+## Delivery Intelligence
+
+![Delivery Intelligence](assets/screenshots/02_delivery_intelligence.png)
+
+## Seller & Category Intelligence
+
+![Seller & Category Intelligence](assets/screenshots/03_seller_category_intelligence.png)
+
 🔍 Key Findings
 
 1. Delivery delays are strongly associated with lower review scores.
@@ -42,12 +55,14 @@ satisfaction, seller performance, and category performance.
 5. Monthly item value shows noticeable changes over the observed period.
 
 ⚠️ Important Business Assumption
+
 The dataset does not contain actual product cost/COGS.
+
 Therefore:
 
 Contribution Proxy = Item Value − Freight Value
 
-This should NOT be interpreted as true profit.
+This should **NOT** be interpreted as true profit.
 
 📁 Project Structure
 
@@ -58,5 +73,5 @@ This should NOT be interpreted as true profit.
 - `05_powerbi` — Power BI dashboard
 - `06_docs` — Documentation
 - `07_outputs` — Results and exports
-- `08_README.md` — Project documentation
+- `README.md` — Project documentation
 - `09_requirements.txt` — Python dependencies
